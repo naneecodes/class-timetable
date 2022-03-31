@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* CLASS CONTAINER STYLE PER PERIOD (2 timelots)  */
+.class-container {
+  display: grid;
+  height: 20vh;
+  width: 28vh;
+  margin: 2rem;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header {
+  color: white;
+  background: blue;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cell {
+  background: yellow;
+}
